@@ -9,6 +9,6 @@ function frankenSplice(arr1, arr2, n) {
   const myArray = [...arr2];
   myArray.splice(n, 0, ...arr1);
   return myArray;
-}
+} 
 
 console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
