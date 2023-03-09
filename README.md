@@ -1,3 +1,3 @@
-# JavaScript-Challenges
-1. Some basic coding challenges
-2. Basic Algorith Scripting - freeCodeCamp
+# JavaScript Interview Challenges
+
+These are my solutions to the [Scrimba's JavaScript Interview Challenges](https://scrimba.com/learn/interviewchallenges)
