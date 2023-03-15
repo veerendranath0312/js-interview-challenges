@@ -17,18 +17,18 @@ const gameNightFood = {
   "🌮 tacos": 10,
   "🥗 salads": 7,
   "🍝 pasta": 5,
-};
+}
 
 // Solution 1
 function findTheWinner(obj) {
-  let max = [0, 0];
+  let max = [0, 0]
   for (const item of Object.entries(obj)) {
     if (item[1] > max[1]) {
-      max = item;
+      max = item
     }
   }
 
-  return `The winner is ${max[0]} with ${max[1]} votes!`;
+  return `The winner is ${max[0]} with ${max[1]} votes!`
 }
 
 // Solution 2
@@ -42,26 +42,26 @@ function findTheWinner(obj) {
 //     return `The winner is ${keys[index]} with ${max} votes!`
 // }
 
-console.log(findTheWinner(gameNightFood));
+console.log(findTheWinner(gameNightFood))
 
 // Scrimba's Solution
 function findTheWinner(obj) {
   // initialize some new variable to:
   // keep track of the current highest vote number
-  let highestVotes = 0;
+  let highestVotes = 0
   // keep track of the current winning item
-  let winningItem = "";
+  let winningItem = ""
   // for each food option in the food object
   for (let food in obj) {
     // is the current value higher than the value of highestVotes?
     if (obj[food] > highestVotes) {
       // yes: the new value of highestVotes in the current value and
-      highestVotes = obj[food];
+      highestVotes = obj[food]
       // winningItem = the current property
-      winningItem = food;
+      winningItem = food
     }
   }
 
   // return string announcing the winner using winningItme and highestVote variables
-  return `The winner is ${winningItem} with ${highestVotes} votes.`;
+  return `The winner is ${winningItem} with ${highestVotes} votes.`
 }

@@ -10,10 +10,10 @@ function alternateCaps(str) {
   return str
     .split("")
     .map((char, i) => (i % 2 === 0 ? char.toUpperCase() : char.toLowerCase()))
-    .join("");
+    .join("")
 }
 
 console.log(
   alternateCaps("When you visit Portland you have to go to VooDoo Donuts")
-);
-console.log(alternateCaps("I'm so happy it's Monday"));
+)
+console.log(alternateCaps("I'm so happy it's Monday"))

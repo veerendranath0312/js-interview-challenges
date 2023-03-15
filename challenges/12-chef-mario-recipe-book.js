@@ -22,7 +22,7 @@ const eggScrambleRecipe = [
   "🧀 cheese",
   "🥦 broccoli",
   "🌶️ hot sauce",
-];
+]
 
 // Using Set()
 // function removeDupesFromArray(arr){
@@ -52,19 +52,19 @@ function removeDupesFromArray(arr) {
   //      if the item does NOT exist in the lookup, add it and return true
   //    return false
 
-  const trackDupes = {};
+  const trackDupes = {}
 
   return arr.filter((item) => {
     if (!trackDupes[item]) {
-      trackDupes[item] = true;
-      return true;
+      trackDupes[item] = true
+      return true
     }
 
-    return false;
-  });
+    return false
+  })
 }
 
-console.log(removeDupesFromArray(eggScrambleRecipe));
+console.log(removeDupesFromArray(eggScrambleRecipe))
 console.log(
   removeDupesFromArray([
     "🌈 rainbow",
@@ -73,4 +73,4 @@ console.log(
     "🦄 unicorn",
     "🍭 lollipops",
   ])
-);
+)

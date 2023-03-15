@@ -23,15 +23,15 @@ Your function's output should look something like this:
 function awardBonuses() {
   for (let id = 1; id <= 100; id++) {
     if (id % 3 === 0 && id % 5 === 0) {
-      console.log(`${id} - JACKPOT! 1 Million and a Yacht!`);
+      console.log(`${id} - JACKPOT! 1 Million and a Yacht!`)
     } else if (id % 3 === 0) {
-      console.log(`${id} - Vacation!`);
+      console.log(`${id} - Vacation!`)
     } else if (id % 5 === 0) {
-      console.log(`${id} - $100,000 bonus!`);
+      console.log(`${id} - $100,000 bonus!`)
     } else {
-      console.log(`${id} - :(`);
+      console.log(`${id} - :(`)
     }
   }
 }
 
-awardBonuses();
+awardBonuses()

@@ -16,24 +16,24 @@ lowercase t and a capital T should be considered the same character).
 
 function countChars(str) {
   // const newStr = str.toLowerCase().split(" ").join("");
-  const newStr = str.toLowerCase().replaceAll(" ", "");
-  const charsFrequency = {};
+  const newStr = str.toLowerCase().replaceAll(" ", "")
+  const charsFrequency = {}
 
   // Loop through the string
   for (let i = 0; i < newStr.length; i++) {
     // if the char exists in the object then increase count
     if (charsFrequency[newStr[i]]) {
-      charsFrequency[newStr[i]] += 1;
+      charsFrequency[newStr[i]] += 1
 
       // else, add the char as property and assign 1 to it
     } else {
-      charsFrequency[newStr[i]] = 1;
+      charsFrequency[newStr[i]] = 1
     }
 
     // frequency[newStr[i]] ? frequency[newStr[i]] += 1 : frequency[newStr[i]] = 1
   }
-  return charsFrequency;
+  return charsFrequency
 }
 
-console.log(countChars("Peggy Porth"));
-console.log(countChars("Veerendra"));
+console.log(countChars("Peggy Porth"))
+console.log(countChars("Veerendra"))

@@ -16,8 +16,8 @@ Hint: endsWith and slice
 function whisper(sentence) {
   return sentence.endsWith("!")
     ? `shh... ${sentence.toLowerCase()}`.slice(0, -1)
-    : `shh... ${sentence.toLowerCase()}`;
+    : `shh... ${sentence.toLowerCase()}`
 }
 
-console.log(whisper("PLEASE STOP SHOUTING."));
-console.log(whisper("MA'AM, this is a Wendy's!"));
+console.log(whisper("PLEASE STOP SHOUTING."))
+console.log(whisper("MA'AM, this is a Wendy's!"))

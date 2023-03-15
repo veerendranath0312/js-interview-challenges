@@ -1,0 +1,21 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "These are my solutions to the [Scrimba's JavaScript Interview Challenges](https://scrimba.com/learn/interviewchallenges)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veerendranath0312/js-interview-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veerendranath0312/js-interview-challenges/issues"
+  },
+  "homepage": "https://github.com/veerendranath0312/js-interview-challenges#readme"
+}

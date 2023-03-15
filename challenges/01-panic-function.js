@@ -13,8 +13,8 @@ Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 */
 
 function panicFunction(string) {
-  return `${string.split(' ').join(' 😱 ').toUpperCase()}!`;
+  return `${string.split(" ").join(" 😱 ").toUpperCase()}!`
 }
 
-console.log(panicFunction("Hello"));
-console.log(panicFunction("I'm almost out of coffee"));
+console.log(panicFunction("Hello"))
+console.log(panicFunction("I'm almost out of coffee"))

@@ -23,7 +23,7 @@ const kittyScores = [
   78,
   50,
   [63],
-];
+]
 
 const kittyPrizes = [
   ["💰", "🐟", "🐟"],
@@ -36,7 +36,7 @@ const kittyPrizes = [
   "💵",
   ["🐟"],
   "🐟",
-];
+]
 
 // Using built-in method
 // function flatten(arr){
@@ -45,18 +45,18 @@ const kittyPrizes = [
 // }
 
 function flatten(arr) {
-  const flattened = [];
+  const flattened = []
 
   for (let i = 0; i < arr.length; i++) {
     if (typeof arr[i] === "object") {
-      arr[i].forEach((el) => flattened.push(el));
+      arr[i].forEach((el) => flattened.push(el))
     } else {
-      flattened.push(arr[i]);
+      flattened.push(arr[i])
     }
   }
 
-  return flattened;
+  return flattened
 }
 
-console.log(flatten(kittyPrizes));
-console.log(flatten(kittyScores));
+console.log(flatten(kittyPrizes))
+console.log(flatten(kittyScores))

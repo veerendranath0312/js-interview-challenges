@@ -11,7 +11,7 @@ Example input: [1,2,3]
 Example output: 6
  */
 
-const studentCount = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110];
+const studentCount = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110]
 
 // Using normal for loop
 // function sumArray(arr){
@@ -25,9 +25,9 @@ const studentCount = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110];
 
 // Using reduce() method
 function sumArray(arr) {
-  const sum = arr.reduce((acc, current) => acc + current, 0);
-  return sum;
+  const sum = arr.reduce((acc, current) => acc + current, 0)
+  return sum
 }
 
-console.log(sumArray([1, 2, 3]));
-console.log(sumArray(studentCount));
+console.log(sumArray([1, 2, 3]))
+console.log(sumArray(studentCount))

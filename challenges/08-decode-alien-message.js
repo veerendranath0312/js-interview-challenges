@@ -5,13 +5,13 @@ backward. Write functions to reverse the backward messages so we can
 read what they have to say! 
 */
 
-const title = ":htraE no od ot ffutS";
+const title = ":htraE no od ot ffutS"
 const messages = [
   "maerc eci yrT",
   "rewoT leffiE tisiV",
   "noom eht ot snamuh etacoleR",
   "egrahc ni stac tuP",
-];
+]
 
 /* Step 1: Reverse a string
 Write a function that takes in a string and returns the reverse 
@@ -31,11 +31,11 @@ Example output: Welcome to earth!
 
 // 2. Without using built-in methods
 function reverseString(str) {
-  let reverseStr = "";
+  let reverseStr = ""
   for (let i = str.length - 1; i >= 0; i--) {
-    reverseStr += str[i];
+    reverseStr += str[i]
   }
-  return reverseStr;
+  return reverseStr
 }
 
 /*
@@ -47,8 +47,8 @@ reverse the strings manually.
 */
 
 function reverseStringsInArray(arr) {
-  return arr.map((str) => reverseString(str));
+  return arr.map((str) => reverseString(str))
 }
 
-console.log(reverseString(title));
-console.log(reverseStringsInArray(messages));
+console.log(reverseString(title))
+console.log(reverseStringsInArray(messages))

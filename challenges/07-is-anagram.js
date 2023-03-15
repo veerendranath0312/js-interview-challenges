@@ -16,23 +16,23 @@ Example output: false
 */
 
 function sortAlphabetical(str) {
-  const sorted = str.split("").sort().join("");
-  return sorted;
+  const sorted = str.split("").sort().join("")
+  return sorted
 }
 
 function isAnagram(str1, str2) {
   if (str1.length !== str2.length) {
-    return false;
+    return false
   }
 
-  const sortStr1 = sortAlphabetical(str1);
-  const sortStr2 = sortAlphabetical(str2);
+  const sortStr1 = sortAlphabetical(str1)
+  const sortStr2 = sortAlphabetical(str2)
 
-  return sortStr1 === sortStr2;
+  return sortStr1 === sortStr2
 }
 
-console.log(isAnagram("allergy", "gallery"));
-console.log(isAnagram("treasure", "measure"));
+console.log(isAnagram("allergy", "gallery"))
+console.log(isAnagram("treasure", "measure"))
 
 // HINTS
 // 1. If two words are anagrams, there lengths will be the exactly same
